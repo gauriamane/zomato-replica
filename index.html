@@ -1,1 +1,466 @@
-<!-- In this file you are going to write html code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Mumbai</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="h-container">
+
+      <div class="head_item_1">
+        <img class="navimg" src="images\get-the-app-plain.svg">
+         <a href="Get the app" style="text-decoration: none;color: #33373D">Get the app</a> 
+      </div>
+         
+      <div class="navlist"> 
+        <ul style="list-style-type:none;">
+          <li>
+            <a id="nav_item_1" href="Order Food" style="text-decoration: none;  color: #33373D;">
+            <img class="navimg1" src="images\order-online.svg" style="position: relative;top: 10px;">
+              Order Food &emsp;
+            </a>
+          </li>
+          <li>
+            <a id="nav_item_1" href="Book a Table" style="text-decoration: none;  color: #33373D;">
+            <img class="navimg2" src="images\book-a-table.svg" style="position: relative;top: 10px">
+              Book a Table &emsp;
+            </a>
+          </li>
+          <li>
+            <a id="nav_item_1" href="Zomato Gold" style="text-decoration: none;  color: #33373D;">
+            <img class="navimg3" src="images\gold.svg" style="position: relative;top: 10px">
+              Zomato Gold &emsp;
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container">
+
+      <img class="bgimg" src="images/bg.jpg" alt="" style="width:100%;filter: brightness(60%);">
+      <div class="log-in">
+      <a href=" Log in" style="text-decoration:none;color: white">Log in</a>
+      <a href="Create an account"style="text-decoration: none;color: white">
+        <input id="button" type="button" value="Create an account">
+      </a>  
+    </div>
+
+      <div class="logcont">
+        Find the best restaurants, cafés, and bars in Mumbai
+      </div>
+
+    <section class="banner">
+    
+      <img class="logo" src="images\zomato_flat_bg_logo.svg" alt="zomato-logo">
+            
+      <div class="drop">
+        <select style="width: 180px; height: 40px;">
+        <option value="Mumbai">Mumbai</option>
+        <option value="Ghatkopar">Ghatkopar</option>
+        <option value="Panvel">Panvel</option>
+        <option value="Church Gate">Church Gate</option>
+        </select>
+      </div>
+
+      <div class="search-restaurant">
+        <input id="search-rest" type="text" placeholder="Search for restaurants or cuisines...">  
+        <button id="search-btn" type="text">Search</button>
+      </div>
+
+    </section>   <!--  banner -->
+
+
+    <div class="widget">
+
+      <div class="title">
+        <div class="title1" style="color: #33373D">
+            <b>Order Food Online</b>
+        </div>
+        <div class="title2" style="color: #899598;font-size: 14px;">
+            Best restaurants delivering to your doorstep<br>
+        </div>
+      </div>  <!-- title -->
+
+        <h4 class="header">Enter your delivery location</h4> 
+        <input class="search-del" type="text" placeholder="Type delivery location here">   
+        <button class="detect-btn" type="text">Detect</button> </div><br>
+        <button class="order-btn" type="text">Order Food Online!</button>
+
+      <div class="hr"></div>
+        
+    </div> <!--  widget -->
+
+
+    <div class="zomatocode">
+      Use code <b>ZOMATO</b> to get up to 50% OFF. 
+      T&Cs apply.
+    </div>
+
+    <div class="advertise">
+      <img class="adv" src="images\ad-zomaland.jpeg" alt="advertise-zomaland">
+    </div>
+          
+    <section class="Collections">
+
+       <div class="coll1" style="color: #33373D;">
+          <b>Collections</b>
+       </div>
+       <div class="coll2">
+          Explore restaurants, bars, and cafés by locality <br><br>
+       </div>
+
+       <div class="coll-list">
+            <div class="list1">
+            <ul style="list-style: none">
+              <li>
+               <img class="img" src="images\trending.jpg"> 
+              </li>
+              <li id="text1" style="width:180px;position: relative;bottom: 15px;"> <h3>Trending This Week</h3>
+                Most popular restaurant in town this week <br><br>
+              </li>
+              <li>
+                <img class="img" src="images\mumbai.jpg"> 
+               </li>
+               <li id="text2" style="width:180px;position: relative;bottom: 15px;"><h3>Best of Mumbai</h3>
+                 The hunt for highest-rated restaurants in your city never ends 
+               </li>
+            </ul>
+            </div>
+
+           <div class="list1">
+            <ul style="list-style: none">
+              <li>
+               <img class="img" src="images\open.jpg"> 
+              </li>
+              <li id="text3" style="width:180px;position: relative;bottom: 15px;"><h3>Newely Opened</h3>
+                The best new places in town <br><br>
+              </li>
+              <li>
+                <img class="img" src="images\surecrisp.jpeg"> 
+               </li>
+               <li id="text4" style="width:180px;position: relative;bottom: 15px;"><h3>SureCrisp Quick Fries</h3>
+                 Turn up the flavour by ordering SureCrisp fries
+               </li>
+            </ul>
+            </div>
+
+        </div> <!-- coll-list -->
+
+        <div coll-btn>
+          <button class="collbtn" type="text">All collections in Mumbai</button>
+        </div>
+
+    </section>
+
+         
+    <section class="categories">
+      <h2 class="cat-title">
+        Quick Searches
+      </h2>
+
+      <p class="cat-subtitle">
+         Discover restaurants by type of meal
+      </p>
+           
+      <div class="cat-list">
+        <ul class="category-list" style="list-style: none;">
+          <li>
+          <img class="mealpic" src="images\delivery.png"> <br>
+               Delivery
+          </li>
+          <li>
+          <img class="mealpic1" src="images\pocket-friendly-delivery.png"> <br>
+              Pocket-Friendly Delivery
+          </li>
+          <li>
+          <img class="mealpic" src="images\breakfast.png"> <br>
+              Breakfast
+          </li>
+          <li>
+          <img class="mealpic" src="images\lunch.png"> <br>
+              Lunch
+          </li>
+          <li>
+          <img class="mealpic" src="images\dinner.png"> <br>
+              Dinner
+          </li>
+          <li>
+          <img class="mealpic1" src="images\drinks.png"> <br>
+              Drinks & Nightlife
+          </li>
+          <li>
+          <img class="mealpic" src="images\cafes.png"> <br>
+              Cafes
+          </li>
+          <li>
+          <img class="mealpic1" src="images\desserts.png"> <br>
+              Desserts & Bakes
+          </li>
+          </ul> 
+      </div>
+    </section>
+
+    <section class="localities">
+      <h2 id="loc-title" style="position: relative;left: 30px">
+          Popular localities in and around Mumbai
+      </h2>
+      <p id="loc-subtitle" style="position: relative;left: 30px">
+          Explore restaurants, bars, and cafés by locality
+      </p>
+
+      <div class="listitem">
+        <ul class="locality-list" style="list-style: none;">
+          <li><b>Lower Parel</b> (492 places)</li>
+          <li><b>Borivali West</b> (591 places)</li>
+          <li><b>Fort</b> (265 places)</li>
+          <li><b>Colaba</b> (199 places)</li>
+          <li><b>Pali Hill, Bandra West</b> (197 places)</li>
+          <li><b>Veera Desai Area</b> (96 places)</li>
+          <li><b>Panch Pakhadi, Thane West</b> (156 places)</li>
+          <li><b>Mulund West </b>(413 places)</li>
+          <li><b>Oshiwara, Andheri West</b> (254 places)</li>
+          <li><b>Kandivali West</b> (578 places)</li>
+        </ul>
+
+      <div class="loclis1">
+        <ul class="locality-list1" style="list-style: none;">
+          <li><b>Lower Parel</b> (492 places)</li>
+          <li><b>Borivali West</b> (591 places)</li>
+          <li><b>Fort</b> (265 places)</li>
+          <li><b>Colaba</b> (199 places)</li>
+          <li><b>Pali Hill, Bandra West</b> (197 places)</li>
+          <li><b>Veera Desai Area</b> (96 places)</li>
+          <li><b>Panch Pakhadi, Thane West</b> (156 places)</li>
+          <li><b>Mulund West </b>(413 places)</li>
+          <li><b>Oshiwara, Andheri West</b> (254 places)</li>
+          <li><b>Kandivali West</b> (578 places)</li>
+        </ul>
+      </div>
+      
+      <div class="loclis2">
+        <ul class="locality-list2" style="list-style: none;">
+          <li><b>Lower Parel</b> (492 places)</li>
+          <li><b>Borivali West</b> (591 places)</li>
+          <li><b>Fort</b> (265 places)</li>
+          <li><b>Colaba</b> (199 places)</li>
+          <li><b>Pali Hill, Bandra West</b> (197 places)</li>
+          <li><b>Veera Desai Area</b> (96 places)</li>
+          <li><b>Panch Pakhadi, Thane West</b> (156 places)</li>
+          <li><b>Mulund West </b>(413 places)</li>
+          <li><b>Oshiwara, Andheri West</b> (254 places)</li>
+          <li><b>Kandivali West</b> (578 places)</li>
+          <br><br>
+        </ul>
+      </div>
+
+      </div>
+   </section> 
+
+
+        <!-- Meal Section for responsive design -->
+
+       <div class="meal-title">
+        <h2 class="meal-tit">
+          Quick Searches
+         </h2>
+
+         <p class="meal-subtitle">
+          Discover restaurants by type of meal
+         </p>
+       </div>
+
+       <div class="meal-list">
+
+       <div class="meallist1">
+       <ul style="list-style: none;">
+        <li>
+          <img class="mealpic" src="images\delivery.png"> <br>
+          Delivery
+        </li>
+        <li>
+         <img class="mealpic1" src="images\pocket-friendly-delivery.png"> <br>
+         Pocket-Friendly Delivery
+        </li>
+        <li>
+         <img class="mealpic" src="images\breakfast.png"> <br>
+         Breakfast
+        </li>
+        <li>
+         <img class="mealpic" src="images\lunch.png"> <br>
+         Lunch
+        </li>
+      </ul>
+      </div>
+
+        <div class="meallist2">
+          <ul style="list-style: none;">
+        <li>
+         <img class="mealpic" src="images\dinner.png"> <br>
+         Dinner
+        </li>
+        <li>
+         <img class="mealpic1" src="images\drinks.png"> <br>
+         Drinks & Nightlife
+        </li>
+        <li>
+         <img class="mealpic" src="images\cafes.png"> <br>
+         Cafes
+        </li>
+        <li>
+         <img class="mealpic1" src="images\desserts.png"> <br>
+         Desserts & Bakes
+        </li>
+        </ul> 
+      </div>
+
+     </div>
+
+      <!-- Meal Section for responsive design -->
+
+
+
+    <footer>
+
+      <div class="zomlogo">
+          <img src="images\zomato_flat_bg_logo.svg">
+      </div>
+
+      <div class="dropmenu">
+        <select style="width: 180px; height: 40px; background-color:#33373D;color: white;border-radius: 4px;">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Ghatkopar">Ghatkopar</option>
+            <option value="Panvel">Panvel</option>
+            <option value="Church Gate">Church Gate</option>
+        </select>
+    </div>
+
+    <div class="footer-wrapper">
+
+        <div class="fotifo">
+
+          <div class="footerinfo1">
+          <ul class="About" style="list-style: none;">
+            <li><h3>About Zomato</h3></li>
+            <li style="font-size: 14px;">About Us</li>
+            <li style="font-size: 14px;">Culture</li>
+            <li style="font-size: 14px;">Blog</li>
+            <li style="font-size: 14px;">Careers</li>
+            <li style="font-size: 14px;">Contact</li>
+          </ul>
+        
+           
+          <ul class="Foodie" style="list-style: none;">
+            <li><h3>For Foodies</h3></li>
+            <li style="font-size: 14px;">Code of Conduct</li>
+            <li style="font-size: 14px;">Community</li>
+            <li style="font-size: 14px;">Verified Users</li>
+            <li style="font-size: 14px;">Blogger Help</li>
+            <li style="font-size: 14px;">Developers</li>
+            <li style="font-size: 14px;">Mobile App</li>
+          </ul>
+        </div> 
+        <!-- footerinfo1 --> 
+       
+         <div class="inforest">
+          <ul class="restaurant" style="list-style: none;">
+            <li><h3>For Restaurants</h3></li>
+            <li style="font-size: 14px;">Add a Restaurant</li>
+            <li style="font-size: 14px;">Claim your Listing</li>
+            <li style="font-size: 14px;">Business App</li>
+            <li style="font-size: 14px;">Business Owner Guidelines</li>
+            <li style="font-size: 14px;">Business Blog</li>
+            <li style="font-size: 14px;">Restaurant Widget</li>
+            <li style="font-size: 14px;">Products for Business</li>
+          </ul>
+        
+          <ul class="other" style="list-style: none;">
+            
+            <li>Advertise</li>
+            <li>Order</li>
+            <li>Book</li>
+            <li>Trace</li>
+            <li>Hyperpure</li>
+          </ul>
+        </div>
+        <!-- inforest -->
+     </div>
+         <!-- fotifo -->
+
+      <div class="country">
+          Countries
+      </div> 
+
+      <div class="countrylist">   
+        <div class="cot1">                                              
+          <ul class="Countries" style="list-style: none;">
+            <li>Australia</li>
+            <li>Brazil</li>
+            <li>Canada</li>
+            <li>Chile</li>
+            <li>Czech Republic</li>
+          </ul>
+
+          <ul class="Countries" style="list-style: none;">
+            <li>Australia</li>
+            <li>Brazil</li>
+            <li>Canada</li>
+            <li>Chile</li>
+            <li>Czech Republic</li>
+          </ul>
+        </div>   
+
+        <div class="cot2">
+          <ul class="Countries" style="list-style: none;">
+            <li>Australia</li>
+            <li>Brazil</li>
+            <li>Canada</li>
+            <li>Chile</li>
+            <li>Czech Republic</li>
+          </ul>
+
+          <ul class="Countries" style="list-style: none;">
+            <li>Australia</li>
+            <li>Brazil</li>
+            <li>Canada</li>
+            <li>Chile</li>
+            <li>Czech Republic</li>
+          </ul>
+        </div>
+
+        <div class="cot3">
+          <ul class="Countries" style="list-style: none;">
+            <li>Australia</li>
+            <li>Brazil</li>
+            <li>Canada</li>
+            <li>Chile</li>
+          </ul>
+        </div>
+
+      </div>                                          <!-- countrylist -->
+         
+         <div class="policy">
+            <ul class="terms" style="list-style: none;">
+            <li style="padding-right: 20px">Policy</li>
+            <li style="padding-right: 20px">Terms</li>
+            <li style="padding-right: 20px">API Policy</li>
+            <li style="padding-right: 20px">CSR</li>
+            <li style="padding-right: 20px">Security</li>
+            <li style="padding-right: 20px">Sitemap</li>
+          </ul>
+         </div>
+         
+          <div class="agreement">
+            By continuing past this page, you agree to our terms of Service, Cookie Policy, Privacy Policy 
+            and Content Policies. All trademarks are properties of their respective owners. 2018-2019 All Rights Reserved
+           </div>
+           </div>
+
+    </footer>
+         
+</body>
+</html>
